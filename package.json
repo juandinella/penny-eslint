@@ -1,12 +1,14 @@
 {
   "name": "@juandinella/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "our eslint config based on standard",
   "main": "index.js",
   "author": "Juan Di Nella <juan.dinella@gmail.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.19.1 || ^5.1.0"
+  },
   "dependencies": {
-    "eslint": "^6.8.0",
     "babel-eslint": "^10.0.3",
     "eslint-config-standard": "^14.1.0",
     "eslint-loader": "^3.0.3",
