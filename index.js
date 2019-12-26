@@ -1,6 +1,5 @@
 module.exports = {
   extends: 'standard',
-  // all valid babel is valid linted
   parser: 'babel-eslint',
   rules: {
     'semi': 'off',
